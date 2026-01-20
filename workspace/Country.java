@@ -20,9 +20,34 @@ private String imageFile;
   }
 
   // Write accessor/get methods for each instance variable that returns it.
-
+public void Setname(String x){
+name = x;
+}
+public void Setcapital(String x){
+capital = x;
+}
+public void Setlanguage(String x){
+language = x;
+}
+public void SetimageFile(String x){
+imageFile = x;
+}
+public String Getname(){
+  return name;
+}
+public String Getcapital(){
+  return capital;
+}
+public String Getlanguage(){
+  return language;
+}
+public String GetimageFile(){
+  return imageFile;
+}
   // Write a toString() method that returns a concatenated String of 3 of the instance variables in a sentence like "..'s capital is .. and its primary language is ..."
- 
+ public String toString(){
+ return name + " capital is " + capital + " and its primary language is " + language;
+ }
 
 
   
